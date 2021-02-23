@@ -10,7 +10,7 @@ public class ConstructorOverloading2 {
 	}
 
 	ConstructorOverloading2(int rNum) {
-		this();
+		this(); // invoking default constructor, constructor chaining
 		rollNum = rollNum + rNum;
 	}
 
