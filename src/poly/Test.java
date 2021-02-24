@@ -9,7 +9,7 @@ public class Test {
 		Vehicle vh = new Vehicle();
 		vh.move();
 		
-		// changing vehicle into subclass a car
+		// assigning vehicle object to child object car
 		vh = new Car();
 		vh.move();
 	}
