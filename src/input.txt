@@ -1,0 +1,28 @@
+Enumaration
+ enum month {
+ jan, feb, march, april
+ }
+ user defined types
+ enum is keyword
+ --methods
+ Boolean hasMoreElement()
+ Object nextElement()
+ --
+ enum PlType {
+ highLevel, machineLevel, assembly, midLevel --public static final member, constants
+ }
+ variables of types
+ 
+ PlType lang;
+ lang = pltyeps.assembly;
+ 
+ if(lang == pltypes.machinevel) {
+ }
+ 
+ switch(lang) {
+ case assembly:
+ case midLevel:
+ }
+ --predefined
+ public static enum-type[] values()
+ public static enum-types valuesOf(String str)
