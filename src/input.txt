@@ -26,3 +26,8 @@ Enumaration
  --predefined
  public static enum-type[] values()
  public static enum-types valuesOf(String str)
+ 
+ STACK
+ Last in, First Out
+ Inserting - PUSH
+ Deletin items from Stack - POP
